@@ -1,4 +1,7 @@
 # Battle
+
+
+
 ## User Stories 
 
 ` We want to Start a fight by entering our Names and seeing them `
@@ -19,7 +22,7 @@
 
 `I want to see a 'Lose' message if I reach 0HP first`
 
-### Aditional Stories
+## Additional Stories
 
 ` I want all Attacks to deal a random amount of damage `
 
