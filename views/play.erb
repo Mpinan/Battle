@@ -1,1 +1,15 @@
-<%= @player_1_name %> vs. <%= @player_2_name %>
+<div id="Header">
+    <h1><%= @p1name + ' vs. ' + @p2name%></h1>
+</div>
+
+<div id="Player1_HP">
+    <h2><%= @p1name %>'s HP: 50</h2>
+</div>
+
+<div id="Player2_HP">
+    <h2><%= @p2name %>'s HP: 50</h2>
+</div>
+
+<form action="/p1attackedp2" method="get">
+    <button type="submit">Player 1 attack</button>
+</form>
