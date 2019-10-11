@@ -4,6 +4,7 @@ require 'player'
 class Battle < Sinatra::Base
   set :session_secret, 'super secret'
   enable :sessions
+  
   get "/" do
     erb :index
   end

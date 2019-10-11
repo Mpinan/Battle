@@ -7,5 +7,5 @@ describe Player do
     it 'Returns name' do
     expect(player.name).to eq('Mario')
     end
-  end
+  e  nd
 end
